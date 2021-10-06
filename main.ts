@@ -12,11 +12,11 @@ input.onGesture(Gesture.Shake, function () {
     } else {
         if (szam == 1) {
             basic.showLeds(`
+                # # # # #
                 # . . . #
-                . . . . .
-                . . . . .
-                . . . . .
                 # . . . #
+                # . . . #
+                # # # # #
                 `)
             basic.pause(200)
         } else {

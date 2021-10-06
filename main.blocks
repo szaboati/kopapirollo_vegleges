@@ -5,11 +5,11 @@
         . . . . . 
         . . . . .
         `</field><next><block type="device_pause" id="e9l$*Q-#k2R@_[aM=SXA"><value name="pause"><shadow type="timePicker" id="Q}af^i8K3B,QK=Nez]@r"><field name="ms">200</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="controls_if" id="93}+Ob6aGjxUA;t3AO8W"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="j}X:*4{iq%/_5g!-xl{7"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="Ce|t,W,Ecq/e?z6+kcAG"><field name="VAR" id="@mzZ}MSHHB{^t16SFTb-">szam</field></block></value><value name="B"><shadow type="math_number" id=")~#0^@u@3+OC)0(=QL(@"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="qq%9zs]9|]N/OuDo$,J*"><field name="LEDS">`
+        # # # # # 
         # . . . # 
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        # . . . #
+        # . . . # 
+        # . . . # 
+        # # # # #
         `</field><next><block type="device_pause" id="+qNZWH3ovjiK@mS*.u0."><value name="pause"><shadow type="timePicker" id="3$y`8@:]b6$(==F,Pi`J"><field name="ms">200</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="8~hiEDv$Lzr|}bNCZy|c"><field name="LEDS">`
         # # . . # 
         # # . # . 
